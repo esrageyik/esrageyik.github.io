@@ -106,3 +106,10 @@ iframe {
 .press_text {
     font-weight: bold;
 }
+
+/* responsive code */
+@media only screen and (max-width: 1230px) {
+    .content {
+        margin-top: 180px;
+    }
+}
