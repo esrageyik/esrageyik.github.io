@@ -1,0 +1,108 @@
+﻿body {
+    font-family: "AppleGothic";
+}
+
+p {
+    text-align: center;
+    font-size: 14pt;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 350px;
+    overflow: hidden;
+    background-color: white;
+    padding-bottom: 40px;
+    padding-top: 35px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+li a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.active_tab {
+	background-color: #cc1013;
+}
+
+.header {
+    overflow: hidden;
+    width:100%;
+    position:fixed;
+    top:0px;
+    z-index:100000; /*to set display priority*/
+}
+
+.content {
+    margin-top: 130px;
+}
+
+.navigation_logo {
+    width: 200px;
+    position: absolute;
+    margin-left: 25px;
+}
+
+.home_image {
+    max-width: 100%;
+    height: auto;
+}
+
+.home_text {
+    color: #cc1013;
+    text-align: center;
+    font-weight: bold;
+    font-size: 32pt;
+}
+
+.title {
+    color: #cc1013;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+.event_image {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+}
+
+.event_text {
+    text-align: right;
+}
+
+iframe {
+    position: relative;
+    left: 280px;
+    top: 200px;
+}
+
+.press_text {
+    font-weight: bold;
+}
